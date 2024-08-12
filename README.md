@@ -1,32 +1,9 @@
 # DeUnhealth
 
+This is a fork of Quentin McGaw, I just updated the Dockerfile so that I have the latest image of Alpine and the necessary programs
+
 Restart your unhealthy containers safely
 
-[![Build status](https://github.com/qdm12/deunhealth/actions/workflows/ci.yml/badge.svg)](https://github.com/qdm12/deunhealth/actions/workflows/ci.yml)
-
-[![dockeri.co](https://dockeri.co/image/qmcgaw/deunhealth)](https://hub.docker.com/r/qmcgaw/deunhealth)
-
-![Last release](https://img.shields.io/github/release/qdm12/deunhealth?label=Last%20release)
-![Last Docker tag](https://img.shields.io/docker/v/qmcgaw/deunhealth?sort=semver&label=Last%20Docker%20tag)
-[![Last release size](https://img.shields.io/docker/image-size/qmcgaw/deunhealth?sort=semver&label=Last%20released%20image)](https://hub.docker.com/r/qmcgaw/deunhealth/tags?page=1&ordering=last_updated)
-![GitHub last release date](https://img.shields.io/github/release-date/qdm12/deunhealth?label=Last%20release%20date)
-![Commits since release](https://img.shields.io/github/commits-since/qdm12/deunhealth/latest?sort=semver)
-
-[![Latest size](https://img.shields.io/docker/image-size/qmcgaw/deunhealth/latest?label=Latest%20image)](https://hub.docker.com/r/qmcgaw/deunhealth/tags)
-
-[![GitHub last commit](https://img.shields.io/github/last-commit/qdm12/deunhealth.svg)](https://github.com/qdm12/deunhealth/commits/main)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/qdm12/deunhealth.svg)](https://github.com/qdm12/deunhealth/graphs/contributors)
-[![GitHub closed PRs](https://img.shields.io/github/issues-pr-closed/qdm12/deunhealth.svg)](https://github.com/qdm12/deunhealth/pulls?q=is%3Apr+is%3Aclosed)
-[![GitHub issues](https://img.shields.io/github/issues/qdm12/deunhealth.svg)](https://github.com/qdm12/deunhealth/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/qdm12/deunhealth.svg)](https://github.com/qdm12/deunhealth/issues?q=is%3Aissue+is%3Aclosed)
-
-[![Lines of code](https://img.shields.io/tokei/lines/github/qdm12/deunhealth)](https://github.com/qdm12/deunhealth)
-![Code size](https://img.shields.io/github/languages/code-size/qdm12/deunhealth)
-![GitHub repo size](https://img.shields.io/github/repo-size/qdm12/deunhealth)
-![Go version](https://img.shields.io/github/go-mod/go-version/qdm12/deunhealth)
-
-[![MIT](https://img.shields.io/github/license/qdm12/deunhealth)](https://github.com/qdm12/deunhealth/master/LICENSE)
-![Visitors count](https://visitor-badge.laobi.icu/badge?page_id=deunhealth.readme)
 
 ## Features
 
