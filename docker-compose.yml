@@ -1,14 +1,19 @@
-version: "3.7"
 services:
   deunhealth:
-    build: .
-    image: qmcgaw/deunhealth
-    container_name: deunhealth
-    network_mode: "none"
+    image: dartsteven/deunhealth:0.1
+    container_name: Deunhealth
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1GB
+        reservations:
+          cpus: '0.5'
+          memory: 512M
     environment:
       - LOG_LEVEL=info
       - HEALTH_SERVER_ADDRESS=127.0.0.1:9999
-      - TZ=America/Montreal
+      - TZ=Europe/Rome
     restart: always
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
